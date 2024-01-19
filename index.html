@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./weather.png" type="image/x-icon">
+    <title>Weather Forecasting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+            <div class="weather">
+                <img src="./weather.png" class="WeatherImg">
+                <h1 class="temp">20°C</h1>
+                <h2 class="city">New Delhi</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="./humidity.png">
+                        <div><p class="humidity">50%</p><p style="padding-left: 2px;">Humidity</p></div>
+                    </div>
+                    <div class="col">
+                        <img src="./wind.png">
+                        <div><p class="wind">50 km/h</p><p style="padding-left: 7px;">Wind Speed</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/20db7e1e15.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
